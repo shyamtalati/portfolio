@@ -55,3 +55,39 @@ section {
     border-radius: 4px;
     cursor: pointer;
 }
+
+#education {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    margin: 5px 0;
+}
+
+.coursework {
+    margin-top: 10px;
+}
+
+.coursework-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.coursework-list li {
+    margin-bottom: 5px;
+}
