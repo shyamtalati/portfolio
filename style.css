@@ -81,6 +81,12 @@ footer {
     color: #fff;
 }
 
+footer a {
+    color: #fff;
+    margin: 0 10x;
+    font-size: 32px;
+    transition: color 0.3s;
+}
 footer a:hover {
     color: #ffcc00;
 }
@@ -93,13 +99,22 @@ footer a:hover {
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
 }
 
 body.dark-mode {
     background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #ffcc00;
+}
+
+body.dark-mode a:hover {
     color: #ffffff;
 }
 
